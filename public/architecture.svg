@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" role="img" aria-label="MediMitra Care architecture overview">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#f0fdfa" />
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="900" height="420" fill="url(#bg)" />
+  <g font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#0f172a">
+    <g transform="translate(40 40)">
+      <rect width="200" height="100" rx="14" fill="#fff7ed" stroke="#fb923c" />
+      <text x="100" y="30" text-anchor="middle" font-weight="700">Next.js 14 frontend</text>
+      <text x="100" y="52" text-anchor="middle">Scan · Schedule · Safety</text>
+      <text x="100" y="70" text-anchor="middle">Ask · Caregiver · Settings</text>
+      <text x="100" y="88" text-anchor="middle" fill="#9a3412">(pictogram + voice)</text>
+    </g>
+    <g transform="translate(350 40)">
+      <rect width="210" height="100" rx="14" fill="#ccfbf1" stroke="#0d9488" />
+      <text x="105" y="30" text-anchor="middle" font-weight="700">Route handlers</text>
+      <text x="105" y="52" text-anchor="middle">/api/scan · /api/ask</text>
+      <text x="105" y="70" text-anchor="middle">/api/drug · /api/interactions</text>
+      <text x="105" y="88" text-anchor="middle" fill="#115e59">(Node runtime, free tier)</text>
+    </g>
+    <g transform="translate(660 40)">
+      <rect width="200" height="100" rx="14" fill="#ede9fe" stroke="#7c3aed" />
+      <text x="100" y="30" text-anchor="middle" font-weight="700">Zustand store</text>
+      <text x="100" y="52" text-anchor="middle">localStorage only</text>
+      <text x="100" y="70" text-anchor="middle">No server DB</text>
+      <text x="100" y="88" text-anchor="middle" fill="#4c1d95">(private by design)</text>
+    </g>
+    <g transform="translate(40 180)">
+      <rect width="200" height="90" rx="14" fill="#f1f5f9" stroke="#475569" />
+      <text x="100" y="30" text-anchor="middle" font-weight="700">ml/</text>
+      <text x="100" y="52" text-anchor="middle">ocr_fallback · ner_rules</text>
+      <text x="100" y="70" text-anchor="middle">risk_classifier</text>
+    </g>
+    <g transform="translate(350 180)">
+      <rect width="210" height="90" rx="14" fill="#f1f5f9" stroke="#475569" />
+      <text x="105" y="30" text-anchor="middle" font-weight="700">backend/services</text>
+      <text x="105" y="52" text-anchor="middle">rxnorm · openfda · gemini</text>
+      <text x="105" y="70" text-anchor="middle">interaction_engine · adherence</text>
+    </g>
+    <g transform="translate(660 180)">
+      <rect width="200" height="90" rx="14" fill="#f1f5f9" stroke="#475569" />
+      <text x="100" y="30" text-anchor="middle" font-weight="700">data/</text>
+      <text x="100" y="52" text-anchor="middle">indian_medicines · pictograms</text>
+      <text x="100" y="70" text-anchor="middle">drug_interactions · label cache</text>
+    </g>
+    <g transform="translate(40 310)">
+      <rect width="820" height="80" rx="14" fill="#ffffff" stroke="#e2e8f0" />
+      <text x="410" y="28" text-anchor="middle" font-weight="700">External APIs (all free tier, graceful offline fallbacks)</text>
+      <text x="410" y="50" text-anchor="middle">Gemini 2.5 Flash · RxNorm REST · openFDA Drug Label · DrugBank (HF)</text>
+      <text x="410" y="68" text-anchor="middle" fill="#475569">Judges can paste their own keys in /settings  nothing is baked into the build.</text>
+    </g>
+    <g stroke="#475569" stroke-width="1.3" fill="none" stroke-dasharray="4 4">
+      <path d="M240 90 L350 90" />
+      <path d="M560 90 L660 90" />
+      <path d="M140 180 L140 140" />
+      <path d="M455 180 L455 140" />
+      <path d="M760 180 L760 140" />
+      <path d="M140 310 L140 270" />
+      <path d="M455 310 L455 270" />
+      <path d="M760 310 L760 270" />
+    </g>
+  </g>
+</svg>
